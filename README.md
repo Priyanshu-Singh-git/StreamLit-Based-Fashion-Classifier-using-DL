@@ -27,7 +27,7 @@ The link for the dataset used in this is : https://www.kaggle.com/datasets/param
 
 ---
 
-#### Last Validation Metrics
+#### Avg Validation Metrics
 
 | Metric       | Value  |
 |-------------|--------|
