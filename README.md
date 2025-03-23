@@ -10,7 +10,7 @@ The link for the dataset used in this is : https://www.kaggle.com/datasets/param
 - run cmd on same path
 - Run command `streamlit run fashionapp.py`
 - it will forward you to browser 
-- Upload the image and enjoy the UI of streamlit
+- Upload the image and enjoy the predictions
 ### How to train the Model for more :
 - The Code is given in ipynb just change the path variables according to where you want to save the weight
 - **Note**- The Notebook Contains Detailed Explanation of every cell and Methods done
