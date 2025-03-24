@@ -6,12 +6,14 @@ This model is solely DL based rather than the Using Clustering. This Model is on
 The link for the dataset used in this is : https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-dataset
 ## How to Run - 
 - First clone the Repo 
-- Install required modules 
+- Install required modules
+- Install modules `streamlit`, `torch`, `torchvision`, `PIL`
+- Check for other builtin modules io, os, and pickle
 - run cmd on same path
 - Run command `streamlit run fashionapp.py`
 - it will forward you to browser 
 - Upload the image and enjoy the predictions
-- **Important Note** - Make sure you run the command in command prompt on this project folder path and also make this folder's path python's current working directory. 
+- **Important Note** - Make sure you run the command in command prompt on this project folder path and also make this folder's path python's current working directory.
 ### How to train the Model for more epoch :
 - The Code is given in ipynb just change the path variables according to where you want to save the weight
 - **Note**- The Notebook Contains Detailed Explanation of every cell and Methods done
