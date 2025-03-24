@@ -12,7 +12,7 @@ The link for the dataset used in this is : https://www.kaggle.com/datasets/param
 - it will forward you to browser 
 - Upload the image and enjoy the predictions
 - **Important Note** - Make sure you run the command in command prompt on this project folder path and also make this folder's path python's current working directory. 
-### How to train the Model for more :
+### How to train the Model for more epoch :
 - The Code is given in ipynb just change the path variables according to where you want to save the weight
 - **Note**- The Notebook Contains Detailed Explanation of every cell and Methods done
 ### Results and Metric : 
