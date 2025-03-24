@@ -161,7 +161,7 @@ def predict_fashion_attributes(model, label_encoder, image_file, device=None):
 
 
 def load_model():
-    path = os.path.join(os.path.dirname(_file_), 'fashion_classifier_model_continued.pth')
+    path = os.path.join(os.path.dirname(__file__), 'fashion_classifier_model_continued.pth')
     checkpoint = torch.load(path, map_location=torch.device('cpu'))
     num_classes = checkpoint['num_classes']
     
