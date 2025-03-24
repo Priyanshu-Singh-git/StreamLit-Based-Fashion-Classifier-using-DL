@@ -8,7 +8,7 @@ The link for the dataset used in this is : https://www.kaggle.com/datasets/param
 - First clone the Repo 
 - Install required modules
 - Install modules `streamlit`, `torch`, `torchvision`, `PIL`
-- Check for other builtin modules io, os, and pickle
+- Check for other builtin modules `io`, `os`, and `pickle`
 - run cmd on same path
 - Run command `streamlit run fashionapp.py`
 - it will forward you to browser 
