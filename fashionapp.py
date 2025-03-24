@@ -171,7 +171,7 @@ def load_model():
     with open(os.path.join(os.path.dirname(__file__), 'label_encoder.pkl'), 'rb') as f:
         label_encoder = pickle.load(f)
     
-    return model, label_encoder
+    return model,label_encoder
 
 
 st.title("Fashion Attribute Predictor")
