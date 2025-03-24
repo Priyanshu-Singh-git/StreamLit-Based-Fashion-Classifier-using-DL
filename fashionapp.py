@@ -168,7 +168,7 @@ def load_model():
     model = FashionClassifier(num_classes)
     model.load_state_dict(checkpoint['model_state_dict'])
     
-    with open(os.path.join(os.path.dirname(_file_), 'label_encoder.pkl'), 'rb') as f:
+    with open(os.path.join(os.path.dirname(__file__), 'label_encoder.pkl'), 'rb') as f:
         label_encoder = pickle.load(f)
     
     return model, label_encoder
